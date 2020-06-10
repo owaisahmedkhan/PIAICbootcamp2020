@@ -28,5 +28,5 @@ jobs:
         node-version: 12
     - name: Install Surge
       run: npm install -g surge
-    - name: run Surge
+    - name: run surge
       run: surge ./ piaicbootcamp2020_owais_class1.surge.sh --token $({secrets.surge_token})
